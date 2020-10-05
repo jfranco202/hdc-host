@@ -68,3 +68,27 @@ nav {
 .default-btn:hover {
     background-color: #22bb5f;
 }
+
+/* main banner */
+
+.main-banner {
+    background-image: url('img/mainbanner.png');
+    background-size: cover;
+    background-position: center;
+    padding: 10em 0;
+    position: relative;
+}
+
+.main-banner h1, .main-banner p {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.main-banner h1 {
+    font-size: 54px;
+}
+
+.main-banner p {
+    font-size: 32px;
+}
